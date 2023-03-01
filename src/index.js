@@ -24,7 +24,7 @@ const App = (props) => {
 
   useEffect(() => {
     d3.csv(
-      'https://raw.githubusercontent.com/weswollner/rawdata/main/org_chart_data.csv'
+      'https://raw.githubusercontent.com/weswollner/org-chart-d3js/main/content/org_chart_data.csv'
     ).then((data) => {
       setData(data);
     });
